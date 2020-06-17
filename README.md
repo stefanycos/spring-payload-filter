@@ -9,7 +9,7 @@ Demostration of how to use advantages of Java Reflection with Spring [RequestBod
 * mvn spring-boot:run
 
 #### Projects Description
-* **payload-filter:** this library offers an option to filter a request body with the purpose of clean/filter the desired fields, developed making usage only of [Java Reflection] (https://www.oracle.com/technical-resources/articles/java/javareflection.html).
+* **payload-filter:** this library offers an option to filter a request body with the purpose of clean/filter the desired fields, developed making usage only of [Java Reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html).
 
 * **payload-filter-usage:** demo project showing how to use payload-filter library with Spring Boot.
 
