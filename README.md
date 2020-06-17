@@ -67,8 +67,8 @@ Response
 }
 ```
 
-#### Creating filters
-* Since this is a demostration I've created just three sample filters, but it's possible to create your own filters creating a Annotation and an extending Filter abstract class, like bellow
+### Creating filters
+ Since this is a demostration I've created just three sample filters, but it's possible to create your own filters creating a Annotation and an extending Filter abstract class, like bellow
 
 - Create the annotation, replace @FilteredClass by your Filter.
 ```java
