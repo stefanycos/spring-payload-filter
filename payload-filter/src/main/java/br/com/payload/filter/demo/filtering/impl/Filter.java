@@ -8,13 +8,13 @@ import br.com.payload.filter.demo.exceptions.FieldFilterException;
 import br.com.payload.filter.demo.exceptions.FilterException;
 import br.com.payload.filter.demo.utils.ObjectsUtils;
 
-public abstract class Filter<Type> {
+public abstract class Filter<T> {
 
-	private Class<Type> acceptedType;
+	private Class<T> acceptedType;
 
 	@SuppressWarnings("unchecked")
 	public Filter() {
-		this.acceptedType = (Class<Type>) ((ParameterizedType) getClass().getGenericSuperclass())
+		this.acceptedType = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass())
 				.getActualTypeArguments()[0];
 	}
 
@@ -29,7 +29,7 @@ public abstract class Filter<Type> {
 
 	private Object getFieldValue(Field field, Object object) throws FilterException {
 		try {
-			field.setAccessible(true);
+			field.setAccessible(true); // NOSONAR
 			return field.get(object);
 		} catch (IllegalArgumentException | IllegalAccessException e) {
 			throw new FieldFilterException("Error when obtaining value from field: " + field.getName());
@@ -38,7 +38,7 @@ public abstract class Filter<Type> {
 
 	private void setFieldValue(Field field, Object object, Object value) throws FilterException {
 		try {
-			field.set(object, value);
+			field.set(object, value); // NOSONAR
 		} catch (IllegalArgumentException | IllegalAccessException e) {
 			throw new FieldFilterException("Error when setting value on field: " + field.getName());
 		}

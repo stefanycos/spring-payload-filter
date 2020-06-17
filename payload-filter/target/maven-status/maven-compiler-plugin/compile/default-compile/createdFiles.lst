@@ -1,0 +1,15 @@
+br/com/payload/filter/demo/filtering/annotations/Sum.class
+br/com/payload/filter/demo/filtering/annotations/Prefix.class
+br/com/payload/filter/demo/exceptions/UnexptedFieldTypeException.class
+br/com/payload/filter/demo/filtering/impl/SumFilter.class
+br/com/payload/filter/demo/filtering/impl/Filter.class
+br/com/payload/filter/demo/filtering/FilterHandler.class
+br/com/payload/filter/demo/filtering/impl/TrimFilter.class
+br/com/payload/filter/demo/utils/ObjectsUtils.class
+br/com/payload/filter/demo/exceptions/FilterException.class
+br/com/payload/filter/demo/exceptions/FilterHandlerException.class
+br/com/payload/filter/demo/exceptions/FieldFilterException.class
+br/com/payload/filter/demo/filtering/annotations/Trim.class
+br/com/payload/filter/demo/filtering/annotations/Filtered.class
+br/com/payload/filter/demo/filtering/annotations/FilterClass.class
+br/com/payload/filter/demo/filtering/impl/PrefixFilter.class

@@ -1,0 +1,15 @@
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/exceptions/UnexptedFieldTypeException.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/filtering/annotations/FilterClass.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/filtering/impl/PrefixFilter.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/filtering/annotations/Prefix.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/filtering/annotations/Filtered.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/exceptions/FilterException.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/filtering/FilterHandler.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/filtering/impl/TrimFilter.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/utils/ObjectsUtils.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/filtering/impl/SumFilter.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/exceptions/FilterHandlerException.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/filtering/annotations/Sum.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/filtering/annotations/Trim.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/filtering/impl/Filter.java
+/Users/stefanysouza/Desenvolvimento/GitHub/Projetos/spring-payload-filter/payload-filter/src/main/java/br/com/payload/filter/demo/exceptions/FieldFilterException.java

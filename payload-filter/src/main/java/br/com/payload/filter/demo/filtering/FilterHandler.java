@@ -45,7 +45,7 @@ public class FilterHandler {
 			Class<? extends Filter> clazz = filter.value();
 			Method method = clazz.getMethod(DEFAULT_METHOD, Field.class, Object.class, Annotation.class);
 
-			Filter instance = this.buildInstance(clazz);
+			Filter<?> instance = this.buildInstance(clazz);
 			method.invoke(instance, field, object, annotation);
 
 		} catch (NoSuchMethodException | InstantiationException | IllegalAccessException | IllegalArgumentException e) {
@@ -61,7 +61,7 @@ public class FilterHandler {
 	}
 
 	@SuppressWarnings("rawtypes")
-	private Filter buildInstance(Class<? extends Filter> clazz)
+	private Filter <?>buildInstance(Class<? extends Filter> clazz)
 			throws NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException {
 
 		Constructor<? extends Filter> constructor = clazz.getConstructor();
