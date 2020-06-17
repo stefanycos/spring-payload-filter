@@ -71,13 +71,13 @@ Response
 * Since this is a demostration I've created just three sample filters, but it's possible to create your own filters creating a Annotation and an extending Filter abstract class, like bellow
 
 - Create the annotation, replace @FilteredClass by your Filter.
-  Obs: value method is optional.
 ```java
 @FilterClass(FooFilter.class)
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
 public @interface Foo {
-
+	
+	// optional
 	int value();
 	
 }
@@ -91,7 +91,7 @@ public class FooFilter extends Filter<Integer> {
 		// YOUR FILTER LOGIC
 	}
 	
-  // getting annotation parameters
+	// getting annotation parameters
 	private Integer getAnnotationValue(Annotation annotation) {
 		Foo foo = (Foo) (annotation);
 		return foo.value();
